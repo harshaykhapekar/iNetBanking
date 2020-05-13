@@ -16,9 +16,9 @@ public class TC_AddCUstomerTest_003 extends BaseClass{
 		
 		LoginPage lp = new LoginPage(driver);
 		lp.setUserName(username);
-		logger.info("username provided");
+//		logger.info("username provided");
 		lp.setPassword(password);
-		logger.info("password provided");
+//		logger.info("password provided");
 		lp.clickSubmit();
 		
 		Thread.sleep(3000);
@@ -27,7 +27,7 @@ public class TC_AddCUstomerTest_003 extends BaseClass{
 		
 		addcust.clickAddNewCustomer();
 		
-		logger.info("customer details provided");
+//		logger.info("customer details provided");
 		
 		addcust.custName("Harsha");
 		addcust.custgender();
@@ -51,11 +51,11 @@ public class TC_AddCUstomerTest_003 extends BaseClass{
 		if(res==true)
 		{
 			Assert.assertTrue(true);
-			logger.info("test case passed");
+//			logger.info("test case passed");
 		}
 		else
 		{
-			logger.info("test case failed");
+//			logger.info("test case failed");
 			captureScreen(driver, "addNewCustomer");
 			Assert.assertTrue(false);
 		}

@@ -1,17 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 168.068 s <<< FAILURE! - in TestSuite
-com.iNetBanking.testCases.TC_AddCUstomerTest_003.addNewCustomer  Time elapsed: 27.231 s  <<< FAILURE!
-org.openqa.selenium.UnhandledAlertException: 
-unexpected alert open: {Alert text : Customer could not be added !!}
-  (Session info: chrome=73.0.3683.103)
-  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds: null
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-7BE37QG3', ip: '192.168.43.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\Harsha\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:63448}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
-Session ID: e31c8fc756278b11f952e9d8150770fd
-	at com.iNetBanking.testCases.TC_AddCUstomerTest_003.addNewCustomer(TC_AddCUstomerTest_003.java:49)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 66.904 s - in TestSuite

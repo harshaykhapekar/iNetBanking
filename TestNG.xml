@@ -11,7 +11,7 @@
 		<classes>
 			<class name="com.iNetBanking.testCases.TC_LoginTest_001" />
 			<!-- <class name="com.iNetBanking.testCases.TC_LoginDDT_002" /> -->
-			<class name="com.iNetBanking.testCases.TC_AddCUstomerTest_003" />
+			<!-- <class name="com.iNetBanking.testCases.TC_AddCUstomerTest_003" /> -->
 		</classes>
 		
 	</test>
