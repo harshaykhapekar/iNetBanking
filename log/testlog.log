@@ -2,3 +2,16 @@
 2020-05-14 01:02:50,693 - ebanking -INFO - Entered Username
 2020-05-14 01:02:51,027 - ebanking -INFO - Entered Password
 2020-05-14 01:02:58,409 - ebanking -INFO - Login Test Failed
+2020-05-14 02:34:30,445 - ebanking -INFO - URL is opened
+2020-05-14 02:34:31,904 - ebanking -INFO - Entered Username
+2020-05-14 02:34:32,253 - ebanking -INFO - Entered Password
+2020-05-14 02:34:51,745 - ebanking -INFO - Login Test Failed
+2020-05-14 02:46:48,342 - ebanking -INFO - URL is opened
+2020-05-14 02:51:29,840 - ebanking -INFO - URL is opened
+2020-05-14 02:51:32,726 - ebanking -INFO - Entered Username
+2020-05-14 02:51:33,279 - ebanking -INFO - Entered Password
+2020-05-14 02:51:45,459 - ebanking -INFO - Login Test Failed
+2020-05-14 02:58:58,087 - ebanking -INFO - URL is opened
+2020-05-14 02:58:58,576 - ebanking -INFO - Entered Username
+2020-05-14 02:58:58,726 - ebanking -INFO - Entered Password
+2020-05-14 02:59:04,468 - ebanking -INFO - Login Test Passed

@@ -7,13 +7,6 @@
   <test thread-count="5" name="iNetBanking(failed)" verbose="0">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.iNetBanking.testCases.TC_AddCUstomerTest_003">
-        <methods>
-          <include name="addNewCustomer"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.iNetBanking.testCases.TC_AddCUstomerTest_003 -->
       <class name="com.iNetBanking.testCases.TC_LoginTest_001">
         <methods>
           <include name="loginTest"/>
