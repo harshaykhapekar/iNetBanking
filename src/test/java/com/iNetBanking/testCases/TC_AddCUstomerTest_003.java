@@ -9,16 +9,16 @@ import com.iNetBanking.pageObjects.LoginPage;
 
 import junit.framework.Assert;
 
-public class TC_AddCUstomerTest_003 extends BaseClass{
+public class TC_AddCustomerTest_003 extends BaseClass{
 
 	@Test
 	public void addNewCustomer() throws InterruptedException, IOException {
 		
 		LoginPage lp = new LoginPage(driver);
 		lp.setUserName(username);
-//		logger.info("username provided");
+		logger.info("username provided");
 		lp.setPassword(password);
-//		logger.info("password provided");
+		logger.info("password provided");
 		lp.clickSubmit();
 		
 		Thread.sleep(3000);

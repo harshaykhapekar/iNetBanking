@@ -2,31 +2,31 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-05-14T02:57:57 IST" name="iNetBanking" finished-at="2020-05-14T02:59:15 IST" duration-ms="78325">
+  <suite started-at="2020-05-17T02:36:10 IST" name="iNetBanking" finished-at="2020-05-17T02:37:26 IST" duration-ms="76017">
     <groups>
     </groups>
-    <test started-at="2020-05-14T02:57:57 IST" name="iNetBanking" finished-at="2020-05-14T02:59:15 IST" duration-ms="78325">
-      <class name="com.iNetBanking.testCases.TC_LoginTest_001">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.iNetBanking.testCases.TC_LoginTest_001@3b07a0d6]" started-at="2020-05-14T02:57:57 IST" name="setUp" finished-at="2020-05-14T02:58:57 IST" duration-ms="60350" status="PASS">
+    <test started-at="2020-05-17T02:36:10 IST" name="iNetBanking" finished-at="2020-05-17T02:37:26 IST" duration-ms="76017">
+      <class name="com.iNetBanking.testCases.TC_DeleteCustomerTest_005">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.iNetBanking.testCases.TC_DeleteCustomerTest_005@7219ec67]" started-at="2020-05-17T02:36:10 IST" name="setUp" finished-at="2020-05-17T02:36:38 IST" duration-ms="28008" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTest()[pri:0, instance:com.iNetBanking.testCases.TC_LoginTest_001@3b07a0d6]" started-at="2020-05-14T02:58:58 IST" name="loginTest" finished-at="2020-05-14T02:59:04 IST" duration-ms="6462" status="PASS">
+        <test-method signature="deleteCustomer()[pri:0, instance:com.iNetBanking.testCases.TC_DeleteCustomerTest_005@7219ec67]" started-at="2020-05-17T02:36:38 IST" name="deleteCustomer" finished-at="2020-05-17T02:37:24 IST" duration-ms="46174" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.iNetBanking.testCases.TC_LoginTest_001@3b07a0d6]" started-at="2020-05-14T02:59:04 IST" name="tearDown" finished-at="2020-05-14T02:59:15 IST" duration-ms="10587" status="PASS">
+        </test-method> <!-- deleteCustomer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.iNetBanking.testCases.TC_DeleteCustomerTest_005@7219ec67]" started-at="2020-05-17T02:37:25 IST" name="tearDown" finished-at="2020-05-17T02:37:26 IST" duration-ms="1363" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.iNetBanking.testCases.TC_LoginTest_001 -->
+      </class> <!-- com.iNetBanking.testCases.TC_DeleteCustomerTest_005 -->
     </test> <!-- iNetBanking -->
   </suite> <!-- iNetBanking -->
 </testng-results>

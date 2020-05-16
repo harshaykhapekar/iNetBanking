@@ -5,6 +5,7 @@ import java.io.IOException;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.RandomStringUtils;
+import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import java.util.concurrent.TimeUnit;
@@ -74,6 +75,20 @@ public class BaseClass {
 	public String randomString() {
 		String generatedstring = RandomStringUtils.randomAlphabetic(8);
 		return generatedstring;
+	}
+	
+	public boolean isAlertPresent() //user defined method created to check alert is present
+	{
+		try
+		{
+		driver.switchTo().alert();
+		return true;
+		}
+		catch(NoAlertPresentException e)
+		{
+			return false;
+		}
+		
 	}
 	
 }

@@ -2,7 +2,6 @@ package com.iNetBanking.testCases;
 
 import java.io.IOException;
 
-import org.openqa.selenium.NoAlertPresentException;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -46,21 +45,7 @@ public class TC_LoginDDT_002 extends BaseClass
 		
 	}
 	
-	public boolean isAlertPresent() //user defined method created to check alert is present
-	{
-		try
-		{
-		driver.switchTo().alert();
-		return true;
-		}
-		catch(NoAlertPresentException e)
-		{
-			return false;
-		}
 		
-	}
-	
-	
 	@DataProvider(name="LoginData")
 	String[][] getData() throws IOException
 	{		
